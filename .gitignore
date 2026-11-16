@@ -1,0 +1,25 @@
+# Gradle / build output
+.gradle/
+build/
+/captures
+.externalNativeBuild
+.cxx
+.kotlin/
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+.navigation/
+
+# Machine-specific SDK path (Android Studio creates this automatically)
+local.properties
+
+# Release signing secrets - NEVER commit these
+keystore.properties
+*.jks
+*.keystore
+app/release/
+
+# OS files
+.DS_Store
+Thumbs.db
